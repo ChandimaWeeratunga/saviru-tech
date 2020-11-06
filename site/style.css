@@ -169,7 +169,7 @@ hr{
 }
 .fade-in{
     opacity: 0;
-    transition: opacity 500ms ease-in;
+    transition: opacity 1000ms ease-in;
 }
 
 .fade-in.appear{

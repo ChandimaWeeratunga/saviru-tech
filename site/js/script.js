@@ -12,7 +12,7 @@ const faders = document.querySelectorAll('.fade-in');
 
 const appearOptions = {
     threshold: 0, //giving time to fade-in
-    rootMargin: "0px 0px -10px 0px" //the point where the fade-in starts to work. 50px after intersecting
+    rootMargin: "0px 0px -50px 0px" //the point where the fade-in starts to work. 50px after intersecting
 };
 
 const appearOnScroll = new IntersectionObserver(
