@@ -169,7 +169,7 @@ hr{
 }
 .fade-in{
     opacity: 0;
-    transition: opacity 250ms ease-in;
+    transition: opacity 500ms ease-in;
 }
 
 .fade-in.appear{
@@ -281,6 +281,9 @@ footer img{
         transition: 0.5s ease-out;
     }
     .burger{
+        display: block;
+    }
+    .ranges{
         display: block;
     }
 }
