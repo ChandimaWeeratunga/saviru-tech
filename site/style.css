@@ -279,7 +279,7 @@ footer img{
 
 
 
-@media screen and (max-width:775px){
+@media screen and (max-width:800px){
     .nav-links{
         display: none;
         transition: 0.5s ease-out;
@@ -295,7 +295,7 @@ footer img{
     }
 }
 
-@media screen and (min-width: 769px){
+@media screen and (min-width: 801px){
     .footer-right >*{
         flex: 1;
     }
