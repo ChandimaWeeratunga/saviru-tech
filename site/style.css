@@ -199,7 +199,8 @@ hr{
     color: rgb(236, 111, 27);
     font-family: 'Open Sans', sans-serif;
     cursor: pointer;
-    margin: 20px
+    margin: 20px;
+    font-size: 12pt;
 }
 
 
@@ -275,6 +276,9 @@ footer img{
 .social a:hover{
     color: rgb(255, 94, 0);
 }
+
+
+
 @media screen and (max-width:768px){
     .nav-links{
         display: none;
