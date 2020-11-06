@@ -1,0 +1,110 @@
+*{
+    margin : 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    background: url("img/spices.jpg") no-repeat fixed;
+    background-size: cover;
+  }
+
+nav{
+    display: flex; /*the elements come side-by-side*/
+    justify-content: space-around; /*gets same space around the elemnts*/
+    align-items: center; /*aligns elemnts vertically center*/
+    min-height: 10vh;
+    /*background-color: rgb(5, 73, 3);*/
+    background-color: rgb(100, 15, 15);
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+#logo img{
+    height: 8vh;
+}
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    list-style: none;
+}
+
+.nav-links a{
+    text-decoration: none;
+    letter-spacing: 3px;
+    color: rgb(236, 111, 27);
+    font-weight: bold;
+}
+
+.burger{
+    display: none;
+    cursor: pointer;
+}
+
+.burger div{
+    width: 15px;
+    height: 3px;
+    margin: 4px 0;
+    background-color:rgb(236, 111, 27);
+}
+
+.overlay{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content{
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a{
+    padding: 8px;
+    text-decoration: none;
+    font-size: 4vh;
+    color: rgb(236, 111, 27);
+    display: block;
+    transition: 0.4s;
+    letter-spacing: 3px;
+    color: rgb(236, 111, 27);
+    font-weight: bold;    
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+.overlay .closebtn{
+    position: absolute;
+    top: 0;
+    right: 45px;
+    font-size: 60px;
+}
+
+.overlay a:hover{
+    color:rgb(240, 179, 138);
+}
+
+
+@media screen and (max-width:768px){
+    .nav-links{
+        display: none;
+        transition: 0.5s ease-out;
+    }
+    .burger{
+        display: block;
+    }
+}
