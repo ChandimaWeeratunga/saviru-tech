@@ -9,9 +9,12 @@
     <meta name="description" content="Saviru Industrial dehydraters">
     <meta name="author" content="Saviru Technologies & Services">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 </head>
 <body>
     <!--Navbar start-->
@@ -25,6 +28,7 @@
             <li><a href="products.html">Products</a></li>
             <li><a href="about.html">About us</a></li>
             <li><a href="contact.html">Contact us</a></li>
+            <li><a href="contact.html">awards</a></li>
         </ul>
         <div class="burger" onclick="openNav()">
             <div class="line"></div>
@@ -50,7 +54,87 @@
         <p>Manufacturer of the largest range of dryers and dehydrators serving the country !</p>
     </div>
 
-
+    <section>
+        <div class="container">
+            <div class="contactinfo">
+                <div>
+                    <h2 id="middlesub">Contact info</h2>
+                    <ul class="info">
+                        <li><span class="material-icons">
+                            location_on
+                            </span>
+                            <p>
+                                197/25 B, Heerassagala road,<br>
+                                Kandy. <br>
+                                20000
+                            </p>
+                        </li>
+                        <li><span class="material-icons">
+                            email
+                            </span>
+                            <p>
+                                <a href="mailto:saviru.technologies@gmail.com" target="_blank">
+                                    saviru.technologies@gmail.com
+                                </a>
+                            </p>
+                            
+                        </li>
+                        <li><span class="material-icons">
+                            call
+                            </span>
+                            <p>
+                                <a href="tel:+94773602488">Mobile : +94773602488</a> <br>
+                                <a href="tel:+94773609078">Hotline : +94773609078</a>
+                            </p>
+                        </li>
+                        <li>
+                            <a href="#"target="_blank" id="sbtn"><span class="material-icons">
+                                facebook
+                                </span>
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="contactForm">
+                <h2 id="middlesub">Send a message</h2>
+                <form action="#" method="post" autocomplete="on">
+                    <div class="w50">
+                        <label for="fname" id="small-sub">First name :</label><br>
+                        <input type="text" name="fname" required>
+                    </div>
+                    <div class="w50">
+                        <label for="lname" id="small-sub">Last name :</label><br>
+                        <input type="text" name="lname" required>
+                    </div>
+                    <div class="w100">
+                        <label for="email" id="small-sub">Email :</label><br>
+                        <input type="email" name="email" required>
+                    </div>
+                    <div class="w50">
+                        <label for="phone" id="small-sub">Phone number :</label><br>
+                        <input type="text" name="phone" required>
+                    </div>
+                    <div class="w50">
+                        <label for="dtype" id="small-sub">Type of dryer :</label><br>
+                        <select name="dryers" id="dryers">
+                            <option value="wood-fired">Wood-fired</option>
+                            <option value="kerosene">Kerosene</option>
+                            <option value="electric">Electric</option>
+                        </select>
+                    </div>
+                    <div class="w100">
+                        <label for="message" id="small-sub">Message :</label><br>
+                        <textarea name="message" id="message" cols="30" rows="10">
+                        </textarea>
+                    </div>
+                    <input type="submit" id="myBtn">
+                </form>
+            </div>
+        </div>
+    </section>
+    
 
 
     
@@ -63,7 +147,9 @@
             <img src="img/SAVIRU NEW.png" alt="">
             <p>Follow us on</p>
             <div class="social">
-                <a href="#" class="fa fa-facebook"></a>
+                <a href="#"target="_blank" id="sbtn"><span class="material-icons">
+                    facebook
+                    </span></a>
             </div>
         </div>
         <div class="footer-right">

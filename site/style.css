@@ -9,7 +9,7 @@ body{
     padding: 0;
     justify-content: center;
     align-items: center;
-    background: url("img/spices.jpg") no-repeat fixed;
+    background: url("img/back.jpg") no-repeat fixed;
     background-size: cover;
   }
 
@@ -126,7 +126,7 @@ nav{
 
 
 .content{
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.8);
     width: 90%;
     margin: auto;
     padding: 40px;
@@ -273,7 +273,7 @@ footer img{
     font-size: 1.5vh;
 }
 
-.social a:hover{
+#sbtn:hover{
     color: rgb(255, 94, 0);
 }
 
