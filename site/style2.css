@@ -79,7 +79,9 @@ section .container .contactForm #myBtn{
     margin: auto;
     margin-top: 20px;
 }
-
+.w50, .w100{
+    margin: 10px;
+}
 
 @media screen and (max-width:800px){
     section{
