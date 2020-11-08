@@ -11,7 +11,7 @@ body{
     align-items: center;
     background: url("img/back.jpg") no-repeat fixed;
     background-size: cover;
-  }
+}
 
 nav{
     display: flex; /*the elements come side-by-side*/
