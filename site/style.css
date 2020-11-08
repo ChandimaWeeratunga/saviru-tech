@@ -167,9 +167,7 @@ hr{
     margin: auto;
     text-align: center;
 }
-.content div{
-    margin: 40px;
-}
+
 .fade-in{
     opacity: 0;
     transition: opacity 1000ms ease-in;
