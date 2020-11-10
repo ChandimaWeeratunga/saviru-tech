@@ -1,3 +1,14 @@
+//pre loader. must come first.
+var loader = document.querySelector(".loadcontainer");
+
+
+window.addEventListener("load", vanish);
+
+function vanish(){
+  loader.classList.add("disappear");
+}
+
+
 //curtain menu
 function openNav(){
     document.getElementById("menu").style.width = "100%";
@@ -104,3 +115,4 @@ function showSlides(n, no) {
   }
   x[slideIndex[no]-1].style.display = "block";  
 }
+

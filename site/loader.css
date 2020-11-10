@@ -1,0 +1,74 @@
+.loadcontainer{
+    height: 100%;
+    width: 100%;
+    background: rgb(100, 15, 15);
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+}
+
+.loader{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.obj{
+    width: 5px;
+    height: 40px;
+    background-color:rgb(236, 111, 27);
+    margin: 0 3px;
+    border-radius: 10px;
+    animation: loader 0.8s infinite;
+}
+
+.obj:nth-child(2){
+    animation-delay: 0.1s;
+}
+.obj:nth-child(3){
+    animation-delay: 0.2s;
+}
+.obj:nth-child(4){
+    animation-delay: 0.3s;
+}
+.obj:nth-child(5){
+    animation-delay: 0.4s;
+}
+.obj:nth-child(6){
+    animation-delay: 0.5s;
+}
+.obj:nth-child(7){
+    animation-delay: 0.6s;
+}
+.obj:nth-child(8){
+    animation-delay: 0.7s;
+}
+
+.disappear{
+    animation: vanish 1s forwards;
+}
+
+@keyframes loader{
+    0%{
+        height: 0;
+    }
+
+    50%{
+        height: 40px;
+    }
+
+    100%{
+        height: 0;
+    }
+}
+
+@keyframes vanish{
+    100%{
+        opacity: 0;
+        visibility: hidden;
+    }
+}
